@@ -26,7 +26,7 @@ def MoneyWihdraw(acount, wantmoney ):
                     acount['add_balance'] -= add_balance_used
                     print("you can get your money")
             else: 
-                 print(f"{acount['AcountNum']} bakiyeniz {totalbalance} ")
+                 print(f"{acount['AcountNum']} your balance  {totalbalance} ")
         else: 
             print("you have insufficient balance")
 
